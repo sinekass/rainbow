@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-top: 200px ;
+}
+button{
+    cursor: pointer;
+    background-color: skyblue;
+    background-image: radial-gradient(red,yellow,green,violet,);
+
+}
+button:hover{
+    transform: skew(20deg);
+}
